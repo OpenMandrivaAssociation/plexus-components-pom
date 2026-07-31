@@ -2,8 +2,8 @@
 %global short_name plexus-components
 
 Name:           %{short_name}-pom
-Version:        1.2
-Release:        7.1%{?dist}
+Version:        14.2
+Release:        1%{?dist}
 Summary:        Plexus Components POM
 BuildArch:      noarch
 
