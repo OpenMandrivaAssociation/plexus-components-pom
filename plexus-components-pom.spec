@@ -2,13 +2,15 @@
 
 Name:           %{short_name}-pom
 Version:        14.2
-Release:        1%{?dist}
+Release:        1
 Summary:        Plexus Components POM
+Group:          Development/Java
 BuildArch:      noarch
 # Literal, so the first rpmbuild -bs records them before sysjar is installed.
 BuildRequires:	maven
 BuildRequires:	java-current-devel
 BuildSystem:	maven
+BuildOption:	-N validate
 
 License:        ASL 2.0
 URL:            https://plexus.codehaus.org/%{short_name}
